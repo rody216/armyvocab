@@ -28,8 +28,7 @@ Si deseas contribuir a ArmyVocab, sigue estos pasos:
 ## Equipo
 
 - Rodolfo Alvarez - Desarrollador principal
-- Jane Smith - Diseñadora de interfaz de usuario
-- Mark Johnson - Especialista en idiomas
+- Karol Ortiz - Coordinadora de Eventos
 
 ## Licencia
 
