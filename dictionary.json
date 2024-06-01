@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
     {
         "spanish": "Almirante",
@@ -92,3 +93,99 @@
         "english": "Vice-admiral"
     }
 ]
+=======
+[
+    {
+        "spanish": "Almirante",
+        "english": "Admiral"
+    },
+    {
+        "spanish": "Brigadier",
+        "english": "Brigadier"
+    },
+    {
+        "spanish": "Capitán",
+        "english": "Captain"
+    },
+    {
+        "spanish": "Coronel",
+        "english": "Colonel"
+    },
+    {
+        "spanish": "Comandante",
+        "english": "Commanding Officer"
+    },
+    {
+        "spanish": "Comodoro",
+        "english": "Commodore (BG)"
+    },
+    {
+        "spanish": "Recluta",
+        "english": "Conscript"
+    },
+    {
+        "spanish": "Cabo",
+        "english": "Corporal"
+    },
+    {
+        "spanish": "Recluta",
+        "english": "Draft (US)"
+    },
+    {
+        "spanish": "General",
+        "english": "General"
+    },
+    {
+        "spanish": "Soldado de Infantería",
+        "english": "Infantryman"
+    },
+    {
+        "spanish": "Teniente",
+        "english": "Lieutenant"
+    },
+    {
+        "spanish": "Mayor",
+        "english": "Major"
+    },
+    {
+        "spanish": "Infanterí de Marina",
+        "english": "Marine"
+    },
+    {
+        "spanish": "General",
+        "english": "Marshal"
+    },
+    {
+        "spanish": "Paracaidista",
+        "english": "Paratrooper"
+    },
+    {
+        "spanish": "Suboficial de Marina",
+        "english": "Petty Officer"
+    },
+    {
+        "spanish": "Soldado Raso",
+        "english": "Private"
+    },
+    {
+        "spanish": "Recluta (Obligado)",
+        "english": "Recruit"
+    },
+    {
+        "spanish": "Marinero",
+        "english": "Sailor"
+    },
+    {
+        "spanish": "Alférez",
+        "english": "Second Lieutenant"
+    },
+    {
+        "spanish": "Sargento",
+        "english": "Sergeant"
+    },
+    {
+        "spanish": "Vice Almirante",
+        "english": "Vice-admiral"
+    }
+]
+>>>>>>> 6a61751c6039b9e09c6cefcf1a26202d378f9b88
