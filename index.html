@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenguas - Aprendizaje de Vocabulario Militares</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <img src="img/logo2.png" alt="Logo" class="logo">
+        <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        <nav class="navbar">
+            <a id="mision-button" href="#">Misión</a>
+            <a id="vision-button" href="#">Visión</a>
+            <a href="#" id="armas-button">Armas</a>
+            <div id="sub-menu-armas" class="sub-menu">
+                <a href="#">Infantería</a>
+                <a href="#">Caballería</a>
+                <a href="#">Artillería</a>
+                <a href="#">Ingenieros</a>
+                <a href="#">Comunicaciones</a>
+                <a href="#">Logística</a>
+                <a href="#">Inteligencia</a>
+                <a href="#">Policía Militar</a>
+            </div>
+            <a href="#">Animaciones</a>
+            <a href="#">Oraciones</a>
+        </nav>
+    </header>
+
+    <!-- Modal de Misión -->
+    <div id="modal-mision" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Misión de la Escuela de Suboficiales</h2>
+            <p>El Ejército Nacional conduce operaciones militares orientadas a defender la soberanía, la independencia y la integridad territorial y proteger a la población civil y los recursos privados y estatales para contribuir a generar un ambiente de paz, seguridad y desarrollo, que garantice el orden constitucional de la nación.</p>
+            <!-- Agregar enlace para ver la misión en inglés -->
+            <a href="#" id="translate-mision">Ver en inglés</a>
+        </div>
+    </div>
+
+    <!-- Modal de Visión -->
+    <div id="modal-vision" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Visión de la Escuela de Suboficiales</h2>
+            <p>En el año 2030, el Ejército Nacional continuará siendo la fuerza de acción decisiva de la Nación, con capacidad de conducir operaciones autónomas, conjuntas, coordinadas y combinadas, en forma simultánea en dos teatros de operaciones, uno externo y/o uno interno.</p>
+            <!-- Agregar enlace para ver la visión en inglés -->
+            <a href="#" id="translate-vision">Ver en inglés</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <div class="front">
+                <h1 id="word-espanol">Cargando...</h1>
+                <h1 id="word-ingles">Loading...</h1>
+            </div>
+            <button id="translate-button">Traducir</button>
+            <button id="audio-button"><i class="fas fa-volume-up"></i></button>
+            <div class="navigation"></div>
+        </div>
+        <button onclick="previous()" class="previous">Anterior</button>
+        <button onclick="next()" class="next">Siguiente</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
