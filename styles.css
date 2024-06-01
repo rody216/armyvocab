@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -76,83 +75,4 @@ button {
 
 .next {   
     float: right; /* Alinear el botón "Siguiente" a la derecha */
-=======
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f2f2f2;    
-}
-
-.container {
-    max-width: 400px;
-}
-
-.card {
-    position: relative;
-    background-color: #fff;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    background-image: url('img/fondo.jpg');
-    background-size: cover; 
-    background-position: center;
-    color: #fff;
-}
-
-.word {
-    font-size: 34px;
-    margin-bottom: 20px;
-    display: block;
-}
-
-#word-ingles {
-    display: none; /* Inicialmente oculto */
-}
-
-#translate-button:active + .front #word-espanol {
-    display: none; /* Ocultar el texto en español cuando el botón se presiona */
-}
-
-#translate-button:active + .front #word-ingles {
-    display: block; /* Mostrar el texto en inglés cuando el botón se presiona */
-}
-
-
-button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    padding: 5px 10px;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-.translation {
-    font-style: italic;
-    color: #0c0c0c;
-}
-
-#englishWord {
-    display: none; /* Ocultar palabra en inglés inicialmente */
-}
-
-.navigation {    
-    position: absolute;
-    bottom: 10px; /* Alinear la barra de navegación en la parte inferior de la tarjeta */
-    width: calc(100% - 40px); /* Ancho de la barra de navegación para dejar espacio para los botones */
-    left: 20px; /* Alinear la barra de navegación con el borde izquierdo de la tarjeta */
-}
-
-.previous {   
-    float: left; /* Alinear el botón "Anterior" a la izquierda */
-}
-
-.next {   
-    float: right; /* Alinear el botón "Siguiente" a la derecha */
->>>>>>> 6a61751c6039b9e09c6cefcf1a26202d378f9b88
 }
