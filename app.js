@@ -62,7 +62,6 @@ function next() {
 // Cargar las palabras al cargar la página
 document.addEventListener('DOMContentLoaded', loadWords);
 
-
 document.addEventListener('DOMContentLoaded', () => {
     const menuToggle = document.querySelector('.menu-toggle');
     const navbar = document.querySelector('.navbar');
@@ -71,7 +70,6 @@ document.addEventListener('DOMContentLoaded', () => {
         navbar.classList.toggle('active');
     });
 });
-
 
 document.addEventListener('DOMContentLoaded', () => {
     // Obtener los modales y los botones de cierre
@@ -94,6 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const closeModal = () => {
         modalMision.style.display = 'none';
         modalVision.style.display = 'none';
+        resetModalContent();
     };
 
     // Agregar eventos de clic a los botones para abrir y cerrar los modales
@@ -108,43 +107,67 @@ document.addEventListener('DOMContentLoaded', () => {
             closeModal();
         }
     });
-});
 
-document.addEventListener('DOMContentLoaded', () => {
-    // Obtener el enlace de traducción de la misión y el párrafo de la misión
-    const translateMisionButton = document.getElementById('translate-mision');
-    const misionParagraph = document.querySelector('#modal-mision p');
-    
-    // Función para traducir la misión al inglés
+    // Función para restablecer el contenido al cerrar el modal
+    const resetModalContent = () => {
+        // Restablecer misión
+        const misionTitle = document.getElementById('mision-title');
+        const misionParagraph = document.getElementById('mision-text');
+        const translateMisionButton = document.getElementById('translate-mision');
+
+        misionTitle.textContent = "Misión del Ejército";
+        misionParagraph.textContent = "El Ejército Nacional conduce operaciones militares orientadas a defender la soberanía, la independencia y la integridad territorial y proteger a la población civil y los recursos privados y estatales para contribuir a generar un ambiente de paz, seguridad y desarrollo, que garantice el orden constitucional de la nación.";
+        translateMisionButton.textContent = "Ver en inglés";
+
+        // Restablecer visión
+        const visionTitle = document.getElementById('vision-title');
+        const visionParagraph = document.getElementById('vision-text');
+        const translateVisionButton = document.getElementById('translate-vision');
+
+        visionTitle.textContent = "Visión del Ejército";
+        visionParagraph.textContent = "En el año 2030, el Ejército Nacional continuará siendo la fuerza de acción decisiva de la Nación, con capacidad de conducir operaciones autónomas, conjuntas, coordinadas y combinadas, en forma simultánea en dos teatros de operaciones, uno externo y/o uno interno.";
+        translateVisionButton.textContent = "Ver en inglés";
+    };
+
+    // Función para traducir la misión al inglés y revertirla al español
     const translateMision = () => {
-        const misionContentEnglish = "The National Army conducts military operations aimed at defending sovereignty, independence, and territorial integrity and protecting the civilian population and private and state resources to contribute to generating an environment of peace, security, and development, ensuring the constitutional order of the nation.";
-        
-        // Cambiar el contenido del párrafo al texto en inglés
-        misionParagraph.textContent = misionContentEnglish;
+        const misionTitle = document.getElementById('mision-title');
+        const misionParagraph = document.getElementById('mision-text');
+        const translateMisionButton = document.getElementById('translate-mision');
+
+        if (translateMisionButton.textContent === "Ver en inglés") {
+            misionTitle.textContent = "Mission of the Army";
+            misionParagraph.textContent = "The National Army conducts military operations aimed at defending sovereignty, independence, and territorial integrity and protecting the civilian population and private and state resources to contribute to generating an environment of peace, security, and development, ensuring the constitutional order of the nation.";
+            translateMisionButton.textContent = "Ver en español";
+        } else {
+            misionTitle.textContent = "Misión del Ejército";
+            misionParagraph.textContent = "El Ejército Nacional conduce operaciones militares orientadas a defender la soberanía, la independencia y la integridad territorial y proteger a la población civil y los recursos privados y estatales para contribuir a generar un ambiente de paz, seguridad y desarrollo, que garantice el orden constitucional de la nación.";
+            translateMisionButton.textContent = "Ver en inglés";
+        }
     };
 
-    // Agregar evento de clic al botón de traducción de la misión
-    translateMisionButton.addEventListener('click', translateMision);
-});
-
-document.addEventListener('DOMContentLoaded', () => {
-    // Obtener el enlace de traducción de la visión y el párrafo de la visión
-    const translateVisionButton = document.getElementById('translate-vision');
-    const visionParagraph = document.querySelector('#modal-vision p');
-    
-    // Función para traducir la visión al inglés
+    // Función para traducir la visión al inglés y revertirla al español
     const translateVision = () => {
-        const visionContentEnglish = "By the year 2030, the National Army will continue to be the decisive force of the Nation, with the capacity to conduct autonomous, joint, coordinated, and combined operations simultaneously in two theaters of operations, one external and/or one internal.";
-        
-        // Cambiar el contenido del párrafo al texto en inglés
-        visionParagraph.textContent = visionContentEnglish;
+        const visionTitle = document.getElementById('vision-title');
+        const visionParagraph = document.getElementById('vision-text');
+        const translateVisionButton = document.getElementById('translate-vision');
+
+        if (translateVisionButton.textContent === "Ver en inglés") {
+            visionTitle.textContent = "Vision of the Army";
+            visionParagraph.textContent = "By the year 2030, the National Army will continue to be the decisive force of the Nation, with the capacity to conduct autonomous, joint, coordinated, and combined operations simultaneously in two theaters of operations, one external and/or one internal.";
+            translateVisionButton.textContent = "Ver en español";
+        } else {
+            visionTitle.textContent = "Visión del Ejército";
+            visionParagraph.textContent = "En el año 2030, el Ejército Nacional continuará siendo la fuerza de acción decisiva de la Nación, con capacidad de conducir operaciones autónomas, conjuntas, coordinadas y combinadas, en forma simultánea en dos teatros de operaciones, uno externo y/o uno interno.";
+            translateVisionButton.textContent = "Ver en inglés";
+        }
     };
 
-    // Agregar evento de clic al botón de traducción de la visión
-    translateVisionButton.addEventListener('click', translateVision);
-});
+    // Agregar eventos de clic a los botones de traducción
+    document.getElementById('translate-mision').addEventListener('click', translateMision);
+    document.getElementById('translate-vision').addEventListener('click', translateVision);
 
-document.addEventListener('DOMContentLoaded', function () {
+    // Submenú de Armas
     const armasButton = document.getElementById('armas-button');
     const subMenuArmas = document.getElementById('sub-menu-armas');
 
@@ -160,6 +183,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
+
 
 
 
