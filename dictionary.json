@@ -90,5 +90,229 @@
     {
         "spanish": "Vice Almirante",
         "english": "Vice-admiral"
+    },
+    {
+        "spanish": "Destino",
+        "english": "Post"
+    },
+    {
+        "spanish": "Escuadrón",
+        "english": "Squadron"
+    },
+    {
+        "spanish": "Trinchera",
+        "english": "Trench"
+    },
+    {
+        "spanish": "Blindado",
+        "english": "Armoured"
+    },
+    {
+        "spanish": "Silenciador",
+        "english": "Silencer"
+    },
+    {
+        "spanish": "Soldado Raso",
+        "english": "Private"
+    },
+    {
+        "spanish": "Soldado",
+        "english": "Soldier"
+    },
+    {
+        "spanish": "Sargento",
+        "english": "Sergeant"
+    },
+    {
+        "spanish": "Prisionero",
+        "english": "Prisoner"
+    },
+    {
+        "spanish": "Precisión",
+        "english": "Accuracy"
+    },
+    {
+        "spanish": "Paracaidas",
+        "english": "Parachute"
+    },
+    {
+        "spanish": "Munición",
+        "english": "Ammunition"
+    },
+    {
+        "spanish": "Minsterio de Defensa",
+        "english": "Ministry of Defence"
+    },
+    {
+        "spanish": "Mirilla",
+        "english": "Sight"
+    },
+    {
+        "spanish": "Mina",
+        "english": "Mine"
+    },
+    {
+        "spanish": "Mercenario",
+        "english": "Mercenary"
+    },
+    {
+        "spanish": "Oficial",
+        "english": "Officer"
+    },
+    {
+        "spanish": "Tropa",
+        "english": "Troop"
+    },
+    {
+        "spanish": "Paracaidista",
+        "english": "Paratrooper"
+    },
+    {
+        "spanish": "Paramédico",
+        "english": "Paramedic"
+    },
+    {
+        "spanish": "Transmisión",
+        "english": "Transmission"
+    },
+    {
+        "spanish": "Informe",
+        "english": "Report"
+    },
+    {
+        "spanish": "Inteligencia",
+        "english": "Intelligence"
+    },
+    {
+        "spanish": "Campaña",
+        "english": "Campaign"
+    },
+    {
+        "spanish": "Mochila",
+        "english": "Backpack"
+    },
+    {
+        "spanish": "Infantería",
+        "english": "Infantry"
+    },
+    {
+        "spanish": "Granada",
+        "english": "Grenade"
+    },
+    {
+        "spanish": "Campo de Tiro",
+        "english": "Shooting Range"
+    },
+    {
+        "spanish": "Alcance",
+        "english": "Range"
+    },
+    {
+        "spanish": "Rifle",
+        "english": "Rifle"
+    },
+    {
+        "spanish": "Pistola",
+        "english": "Pistol"
+    },
+    {
+        "spanish": "Escopeta",
+        "english": "Shotgun"
+    },
+    {
+        "spanish": "Enemigo",
+        "english": "Enemy"
+    },
+    {
+        "spanish": "Enemigo",
+        "english": "Foe"
+    },
+    {
+        "spanish": "Ejercito",
+        "english": "Army"
+    },
+    {
+        "spanish": "Blanco",
+        "english": "Target"
+    },
+    {
+        "spanish": "Apuntar",
+        "english": "Aim"
+    },
+    {
+        "spanish": "Disparar",
+        "english": "Shoot"
+    },
+    {
+        "spanish": "Desobediencia",
+        "english": "Disobedience"
+    },
+    {
+        "spanish": "Desfile",
+        "english": "Parade"
+    },
+    {
+        "spanish": "Teniente",
+        "english": "Lieutenant"
+    },
+    {
+        "spanish": "Casco",
+        "english": "Helmet"
+    },
+    {
+        "spanish": "Cañón",
+        "english": "Cannon"
+    },
+    {
+        "spanish": "Camuflaje",
+        "english": "Camouflage"
+    },
+    {
+        "spanish": "Cantimplora",
+        "english": "Canteen"
+    },
+    {
+        "spanish": "Guerra",
+        "english": "War"
+    },
+    {
+        "spanish": "Cabo",
+        "english": "Corporal"
+    },
+    {
+        "spanish": "Ordenar",
+        "english": "Order"
+    },
+    {
+        "spanish": "Obedecer",
+        "english": "Obey"
+    },
+    {
+        "spanish": "Bayonneta",
+        "english": "Bayonet"
+    },
+    {
+        "spanish": "Bala",
+        "english": "Bullet"
+    },
+    {
+        "spanish": "Acorazado",
+        "english": "Battleship"
+    },
+    {
+        "spanish": "Artillería",
+        "english": "Artillery"
+    },
+    {
+        "spanish": "Arma",
+        "english": "Weapon"
+    },
+    {
+        "spanish": "Ametralladora",
+        "english": "Machine Gun"
+    },
+    {
+        "spanish": "Aliados",
+        "english": "Allies"
     }
 ]

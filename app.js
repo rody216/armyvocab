@@ -115,8 +115,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const misionParagraph = document.getElementById('mision-text');
         const translateMisionButton = document.getElementById('translate-mision');
 
-        misionTitle.textContent = "Misión del Ejército";
-        misionParagraph.textContent = "El Ejército Nacional conduce operaciones militares orientadas a defender la soberanía, la independencia y la integridad territorial y proteger a la población civil y los recursos privados y estatales para contribuir a generar un ambiente de paz, seguridad y desarrollo, que garantice el orden constitucional de la nación.";
+        misionTitle.textContent = "Misión de La Escuela Militar de Suboficiales Sargento Inocencio Chincá.";
+        misionParagraph.textContent = "Formar integralmente los futuros Suboficiales del Ejército Nacional, líderes con principios y valores institucionales, a partir de la docencia, la investigación y la extensión, generando competencias de nivel tecnológico, para comandar instruir, conducir y administrar una escuadra que garantice el orden constitucional de la nación.";
         translateMisionButton.textContent = "Ver en inglés";
 
         // Restablecer visión
@@ -124,8 +124,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const visionParagraph = document.getElementById('vision-text');
         const translateVisionButton = document.getElementById('translate-vision');
 
-        visionTitle.textContent = "Visión del Ejército";
-        visionParagraph.textContent = "En el año 2030, el Ejército Nacional continuará siendo la fuerza de acción decisiva de la Nación, con capacidad de conducir operaciones autónomas, conjuntas, coordinadas y combinadas, en forma simultánea en dos teatros de operaciones, uno externo y/o uno interno.";
+        visionTitle.textContent = "Visión de La Escuela Militar de Suboficiales Sargento Inocencio Chincá";
+        visionParagraph.textContent = "La Escuela Militar de Suboficiales Sargento Inocencio Chincá, se proyecta al año 2030, como una institución de educación superior, con un desarrollo investigativo garante de procesos académicos robustos que le permiten ser reconocida en el ámbito nacional e internacional, gracias a sus altos estándares tecnológicos, culturales y éticos como fuente y gestión del conocimiento con un sentido humanístico y social.";
         translateVisionButton.textContent = "Ver en inglés";
     };
 
@@ -136,12 +136,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const translateMisionButton = document.getElementById('translate-mision');
 
         if (translateMisionButton.textContent === "Ver en inglés") {
-            misionTitle.textContent = "Mission of the Army";
-            misionParagraph.textContent = "The National Army conducts military operations aimed at defending sovereignty, independence, and territorial integrity and protecting the civilian population and private and state resources to contribute to generating an environment of peace, security, and development, ensuring the constitutional order of the nation.";
+            misionTitle.textContent = "Mission of the Military School of Non-Commissioned Officers, Sergeant Inocencio Chincá";
+            misionParagraph.textContent = "Comprehensively train future Non-Commissioned Officers of the National Army, leaders with institutional principles and values, based on teaching, research and extension, generating technological level competencies, to command, instruct, lead and administer a squad that guarantees the constitutional order of the nation.";
             translateMisionButton.textContent = "Ver en español";
         } else {
-            misionTitle.textContent = "Misión del Ejército";
-            misionParagraph.textContent = "El Ejército Nacional conduce operaciones militares orientadas a defender la soberanía, la independencia y la integridad territorial y proteger a la población civil y los recursos privados y estatales para contribuir a generar un ambiente de paz, seguridad y desarrollo, que garantice el orden constitucional de la nación.";
+            misionTitle.textContent = "Misión de La Escuela Militar de Suboficiales Sargento Inocencio Chincá";
+            misionParagraph.textContent = "Formar integralmente los futuros Suboficiales del Ejército Nacional, líderes con principios y valores institucionales, a partir de la docencia, la investigación y la extensión, generando competencias de nivel tecnológico, para comandar instruir, conducir y administrar una escuadra que garantice el orden constitucional de la nación.";
             translateMisionButton.textContent = "Ver en inglés";
         }
     };
@@ -153,12 +153,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const translateVisionButton = document.getElementById('translate-vision');
 
         if (translateVisionButton.textContent === "Ver en inglés") {
-            visionTitle.textContent = "Vision of the Army";
-            visionParagraph.textContent = "By the year 2030, the National Army will continue to be the decisive force of the Nation, with the capacity to conduct autonomous, joint, coordinated, and combined operations simultaneously in two theaters of operations, one external and/or one internal.";
+            visionTitle.textContent = "Vision of the Military School of Non-Commissioned Officers Sergeant Inocencio Chincá";
+            visionParagraph.textContent = "The Sergeant Inocencio Chincá Military School of Non-Commissioned Officers is projected to the year 2030, as a higher education institution, with research development that guarantees robust academic processes that allow it to be recognized nationally and internationally, thanks to its high technological standards. Cultural and ethical as a source and management of knowledge with a humanistic and social sense.";
             translateVisionButton.textContent = "Ver en español";
         } else {
-            visionTitle.textContent = "Visión del Ejército";
-            visionParagraph.textContent = "En el año 2030, el Ejército Nacional continuará siendo la fuerza de acción decisiva de la Nación, con capacidad de conducir operaciones autónomas, conjuntas, coordinadas y combinadas, en forma simultánea en dos teatros de operaciones, uno externo y/o uno interno.";
+            visionTitle.textContent = "Visión de La Escuela Militar de Suboficiales Sargento Inocencio Chincá.";
+            visionParagraph.textContent = "La Escuela Militar de Suboficiales Sargento Inocencio Chincá, se proyecta al año 2030, como una institución de educación superior, con un desarrollo investigativo garante de procesos académicos robustos que le permiten ser reconocida en el ámbito nacional e internacional, gracias a sus altos estándares tecnológicos, culturales y éticos como fuente y gestión del conocimiento con un sentido humanístico y social.";
             translateVisionButton.textContent = "Ver en inglés";
         }
     };

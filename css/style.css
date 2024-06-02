@@ -7,18 +7,20 @@
     font-family: 'Poppins', sans-serif;
 }
 
-html, body {
-    width: 100%;
-    height: 100%;
-}
 
 body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/back.jpg'); /* Cambia esta ruta a la ubicación de tu imagen */
+    background-size: 100% 100%; /* Asegura que la imagen cubra el 100% del ancho y alto */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center center; /* Centra la imagen en el fondo */
+    height: 100vh; /* Asegura que el body cubra toda la altura de la pantalla */
+    width: 100%; /* Asegura que el body cubra todo el ancho de la pantalla */
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('background.jpg') no-repeat center center fixed;
-    background-size: cover;
     padding: 20px;
     overflow: hidden;
 }
@@ -91,18 +93,36 @@ body {
     margin-top: 80px;
 }
 
+
+
 .card {
     position: relative;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente */
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    background-image: url('img/fondo.jpg');
+    color: #050505;
+    overflow: hidden; /* Para asegurarse de que el pseudo-elemento no se salga del contenedor */
+    width: 300px; /* Ajusta el tamaño de la tarjeta según sea necesario */
+    max-width: 90%; /* Ajusta para pantallas pequeñas */
+    z-index: 0; /* Asegura que el contenido esté por encima del pseudo-elemento */
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/fondo.jpg'); /* Verifica esta ruta */
     background-size: cover;
     background-position: center;
-    color: #fff;
+    opacity: 0.5; /* Ajusta la opacidad según sea necesario */
+    z-index: -1; /* Coloca el pseudo-elemento detrás del contenido */
 }
+
 
 .word {
     font-size: 24px;
